@@ -1,11 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 /* Navbar */
 .navbar-nav{
     font-size: 18px;
+    
 }
 .navbar{
     position: sticky;
@@ -26,6 +28,7 @@
 }
 .progress:hover{
     transform: scale(1.1);
+    
 }
 
 .skills{
