@@ -4,7 +4,7 @@
     
 }
 body{
-    background-image: url("pale-blue-smoke.jpg");
+    background-image: url("pale-green-smoke.jpg");
     background-size: cover;
 }
 
@@ -55,3 +55,29 @@ right: 7rem;
     box-shadow: 1px 2px 10px rgb(224, 224, 224);
 }
 .botton-pad {margin-bottom: 12rem!important;}
+
+/*scrollbar*/
+    
+     /* width */
+    ::-webkit-scrollbar {
+    width: 15px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background:rgb(180, 180, 180);
+    border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#f3dc95,#ffc107);
+    border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#ffc107,#f3dc95) ;
+    border-radius: 10px;
+}
+    
